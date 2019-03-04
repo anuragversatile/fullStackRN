@@ -40,6 +40,7 @@ alignItems:'center'
 labelStyle:{
   fontSize:18,
   paddingLeft:20,
+  fontWeight:'bold',
   flex:1
 
 }
