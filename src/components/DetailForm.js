@@ -39,7 +39,7 @@ static navigationOptions = ({ navigation }) => {
           .then(navigation.navigate('LoginForm'))
 
 }}>
- {"Logout     "}
+ {"Logout    "}
 </Button>
     ),
   };
@@ -73,6 +73,7 @@ static navigationOptions = ({ navigation }) => {
 GET All Task Details
   </Button>
   </CardSection>
+  <Card>
   <CardSection >
     <Button onPress={()=>{
       console.log(token)
@@ -94,7 +95,7 @@ GET All Task Details
 CREATE TASKS
   </Button>
   </CardSection>
-  <Card>
+  
         <CardSection >
         <Input 
           value={this.state.description}
@@ -114,6 +115,7 @@ CREATE TASKS
           />
           </CardSection>
           </Card>
+          <Card>
           <CardSection >
           <Button onPress={()=>{
       console.log(token)
@@ -132,7 +134,7 @@ CREATE TASKS
 Update TASKS
   </Button>
   </CardSection >
-  <Card>
+ 
   <CardSection >
         <Input 
           value={this.state.updateCompleted}
@@ -154,6 +156,7 @@ Update TASKS
         
   
           </Card>
+          <Card>
           <CardSection>
           <Button onPress={()=>{
       console.log(token)
@@ -172,7 +175,7 @@ Update TASKS
 Delete Tasks
   </Button>
   </CardSection >
-  <Card>
+  
   <CardSection >
         <Input 
           value={this.state.deleteId}
